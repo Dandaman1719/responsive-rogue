@@ -62,6 +62,7 @@ header h1 span {
 }
 
 header nav {
+
 	padding: 46px 0;
 }
 header nav ul {
@@ -69,6 +70,7 @@ header nav ul {
 	padding: 0;
 }
 header nav ul li {
+
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: .875em;
@@ -85,7 +87,7 @@ header nav ul li a{
 .bottom-section {
 	align-items: center;
 	display: flex;
-	flex-flow: row wrap;
+	flex-direction: column;
 	justify-content: center;
 	margin: 0 auto;
 }
@@ -166,4 +168,26 @@ footer span {
 	text-transform: lowercase;
 	color: #77a466;
 	font-size: .875em;
+}
+
+@media all and (min-width:768px) {
+.bottom-section {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.section-one, .section-two, .section-three {
+	align-items: center
+	display: flex;
+	justify-content: center;
+}
+}
+
+
+ 
+}
+ 
+@media all and (min-width:1200px) {
+    /* Desktop styles here */
+ 
 }
